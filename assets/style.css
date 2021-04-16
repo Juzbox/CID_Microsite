@@ -114,6 +114,8 @@
         display: block
     }
 
+
+
     .about {
         margin: 100px 0 50px
     }
@@ -176,6 +178,8 @@ html {
     font-size: 18px
 }
 
+
+
 .header-links {
     float: right
 }
@@ -207,10 +211,27 @@ html {
 .intro-grid {
     display: grid;
     align-content: center;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(8, minmax(0, 1fr));
     width: 70vw;
     grid-column-gap: 10%;
     height: 100%
+}
+
+.storiesTitle {
+    text-align: center;
+    position: relative;
+    width: 100%;
+
+
+}
+
+
+
+.storiesTitle h3 {
+    color: #000;
+        font-family: InterReg;
+     font: var(--bodysp);
+    font-size: 32px;
 }
 
 .solution-grid {
@@ -222,36 +243,91 @@ html {
     height: 100%
 }
 
-.solution-grid .soluImage{
-    width: 400px;
-    margin: 60px;
-    
+
+.themes {
+    text-align: center;
+    position: relative;
+    width: 100%;
+ display: grid;
+    align-content: center;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+   
+    grid-column-gap: 10%;
+    height: 100%
 }
 
-.solution-grid .soluText{
-    
-     margin: 30px;
+
+.themes .icon {
+    color: #000;
+    text-align: center;
+        font-family: InterReg;
+     font: var(--bodysp);
+    font-size: 18px;
+
+}
+
+.themes .signature {
+    margin-top: 60px;
+        margin-bottom: 60px;
+    color: #000;
+    text-align: center;
+        font-family: InterReg;
+     font: var(--body);
+    font-size: 12px;
+
+}
+
+.icon h2 {
+    width: 30vw;
+    margin: 60px;
+
+}
+
+.solution-grid .soluImage {
+    width: 400px;
+    margin: 60px;
+
+}
+
+.solution-grid .soluText {
+
+    margin: 30px;
     font: var(--body);
     font-size: 10pt
-    
 }
 
 .soluText p {
-     margin-top: 0;
+    margin-top: 0;
     font: var(--body);
-    font-size: 10pt 
-    
+    font-size: 10pt
 }
 
 .soluText span {
     font: var(--bodysp)
-    
 }
 
 .para p {
     margin-top: 0;
     font: var(--body);
     font-size: 10pt
+}
+
+.paracenter p span {
+    font: var(--bodysp)
+}
+
+.paracenter p {
+    margin-top: 0;
+    font: var(--body);
+    font-size: 10pt
+}
+
+.para li {
+    
+    margin-top: 0;
+    font: var(--body);
+    font-size: 10pt  
+    
 }
 
 .para p span {
@@ -308,7 +384,12 @@ html {
 
 .intro .para {
     grid-column-start: 1;
-    grid-column-end: 3
+    grid-column-end: 5
+}
+
+.intro .paracenter {
+    grid-column-start: 4;
+    grid-column-end: 7;
 }
 
 .intro .para1 {
@@ -424,18 +505,4 @@ a:hover {
     transform: translate(-50%);
     left: 50%;
     width: 400px
-}
-
-.main-img {
-    height: 592px;
-    width: 927px;
-    position: relative;
-    background: url(https://image.ibb.co/h2yYXQ/J3QYOZO.png) no-repeat center
-}
-
-.area-one {
-    height: 26px;
-    width: 138px;
-    top: 193px;
-    left: 24px
 }
