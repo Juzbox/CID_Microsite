@@ -63,14 +63,12 @@
     }
 
     .intro .solution-grid {
-        display: block;
-
+        display: block
     }
 
     .intro-grid .para {
         margin-bottom: 100px
     }
-
 
     .about .about-grid {
         display: block
@@ -114,15 +112,10 @@
         display: block
     }
 
-
-
     .about {
         margin: 100px 0 50px
     }
 }
-
-
-/*///////////////////////*/
 
 body,
 html {
@@ -178,8 +171,6 @@ html {
     font-size: 18px
 }
 
-
-
 .header-links {
     float: right
 }
@@ -220,18 +211,14 @@ html {
 .storiesTitle {
     text-align: center;
     position: relative;
-    width: 100%;
-
-
+    width: 100%
 }
-
-
 
 .storiesTitle h3 {
     color: #000;
-        font-family: InterReg;
-     font: var(--bodysp);
-    font-size: 32px;
+    font-family: InterReg;
+    font: var(--bodysp);
+    font-size: 32px
 }
 
 .solution-grid {
@@ -243,54 +230,46 @@ html {
     height: 100%
 }
 
-
 .themes {
     text-align: center;
     position: relative;
     width: 100%;
- display: grid;
+    display: grid;
     align-content: center;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-   
     grid-column-gap: 10%;
     height: 100%
 }
 
-
 .themes .icon {
     color: #000;
     text-align: center;
-        font-family: InterReg;
-     font: var(--bodysp);
-    font-size: 18px;
-
+    font-family: InterReg;
+    font: var(--bodysp);
+    font-size: 18px
 }
 
 .themes .signature {
     margin-top: 60px;
-        margin-bottom: 60px;
+    margin-bottom: 60px;
     color: #000;
     text-align: center;
-        font-family: InterReg;
-     font: var(--body);
-    font-size: 12px;
-
+    font-family: InterReg;
+    font: var(--body);
+    font-size: 12px
 }
 
 .icon h2 {
     width: 30vw;
-    margin: 60px;
-
+    margin: 60px
 }
 
 .solution-grid .soluImage {
     width: 400px;
-    margin: 60px;
-
+    margin: 60px
 }
 
 .solution-grid .soluText {
-
     margin: 30px;
     font: var(--body);
     font-size: 10pt
@@ -323,11 +302,9 @@ html {
 }
 
 .para li {
-    
     margin-top: 0;
     font: var(--body);
-    font-size: 10pt  
-    
+    font-size: 10pt
 }
 
 .para p span {
@@ -389,7 +366,7 @@ html {
 
 .intro .paracenter {
     grid-column-start: 4;
-    grid-column-end: 7;
+    grid-column-end: 7
 }
 
 .intro .para1 {
@@ -411,7 +388,7 @@ html {
 }
 
 .intro .slide-image {
-    width: 40vw;
+    width: 40vw
 }
 
 .para a {
@@ -456,9 +433,6 @@ html {
     font: var(--body);
     margin: 0
 }
-
-
-
 
 .workshop h2 span {
     font: 30px/40px InterReg;
