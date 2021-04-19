@@ -21,6 +21,21 @@
 </head>
 
 <body>
+
+    <script>
+// When the user scrolls down 10px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("header").style.fontSize = "40px";
+  } else {
+    document.getElementById("header").style.fontSize = "60px";
+  }
+}
+</script>
+
+
     <div class="header">
         <div class="header-description">
             <div class="header-links">
@@ -34,27 +49,31 @@
 
         </div>
 
-        
+         <div class="introMain">
+        <img src="assets/CIDcover2.jpg" width=100%>
+    </div>
         <div class="bodycopy">
 
-            <h2>FUTUREPROOFING LAAN VAN NOI</h2>
-            <span>Does tomorrow's Laan Van NOI offer a livable future for its residents?
-            </span>
+            <div id="header">HOW LIVABLE WILL TOMORROW'S LAAN VAN NOI BE?
+
+
+
+            </div>
+            <!-- <span>Does tomorrow's Laan Van NOI offer a livable future for its residents?
+            </span> -->
             <br>
         </div>
     </div>
 
 
 
-    <div class="introMain">
-        <img src="assets/AreaOverviewCID.gif" width=100%>
-    </div>
+   
 
     
     <div class="intro">
         <div class="intro-grid" id="location">
             <div class="para">
-                <p><span>Living together in tomorrow's Laan Van NOI </span></p>
+                <p><span>How might we ensure that social cohesion and the well being of Laan Van NOI's future residents is put at the center of its redevelopment?  </span></p>
 
                 <p>The Laan Van NOI area, one of three key gateways into The Hague's Central Innovation District (CID), is soon to be renovated. The CID is the economic heart of The Hague and the region and holds enormous potential. The area already provides employment for nearly 80,000 people and has 30,000 students. 45,000 people live in the area in 23,000 homes.</p>
                 <p>
@@ -376,11 +395,19 @@
                     <li>Sports routes instead of designated locations to encourage exercise</li>
 
                 </p>
+
+<p><a href="https://docs.google.com/presentation/d/1Kis75PVKSLJTk0qvSn5iubxS7yBXyYJuL8qG6mnbNSo/edit#slide=id.gc8e60373e2_0_41" target="_blank">FULL SET OF PRINCIPLES HERE</a></p>
+
             </div>
 
             <div class="slide-image">
 
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRTVgea6mURWBeHdFH-e7zA_5RSNIZHpW4XCU9Rg2W8nfi1GSPUqARs6aP95ag5rFAwodpT_UBv6fYw/embed?start=false&loop=false&delayms=3000&slide=id.p34" frameborder="0" width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+                <img src="assets/CID_CollaborativeUrbanism.jpg" width=100%>
                 <p></p>
 
 
@@ -388,7 +415,7 @@
         </div>
     </div>
 
-
+<hr class="dotted">
 
     <div class="intro">
 
@@ -409,6 +436,9 @@
 
         </div>
     </div>
+
+
+
 
 
 
