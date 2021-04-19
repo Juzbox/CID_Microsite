@@ -119,6 +119,7 @@
 
 body,
 html {
+    background-color: #FAF0E6;
     height: 100%;
     margin: 0
 }
@@ -135,11 +136,13 @@ html {
 }
 
 .header {
+ 
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
     color: #fff
+
 }
 
 .bodycopy {
@@ -157,7 +160,8 @@ html {
 .header-description {
     position: fixed;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+      z-index: 999;
 }
 
 .header-logo {
@@ -172,7 +176,11 @@ html {
 }
 
 .header-links {
-    float: right
+background-color: white;
+    float: right;
+    margin-right: 60px;
+      z-index: 999;
+
 }
 
 .header-description a {
@@ -185,7 +193,8 @@ html {
 }
 
 .header-description a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+    background-color:none;
 }
 
 .header-description span {
@@ -250,7 +259,7 @@ html {
 }
 
 .themes .signature {
-    margin-top: 60px;
+    margin-top: 0px;
     margin-bottom: 60px;
     color: #000;
     text-align: center;
@@ -283,6 +292,29 @@ html {
 
 .soluText span {
     font: var(--bodysp)
+}
+
+
+.soluText a {
+    text-decoration: underline;
+    color: #000
+}
+
+.soluText a:hover {
+    text-decoration: underline;
+    background: #48D1CC;
+    color: #fff
+}
+
+.signature a {
+    text-decoration: underline;
+    color: #000
+}
+
+.signature a:hover {
+    text-decoration: underline;
+    background: #48D1CC;
+    color: #fff
 }
 
 .para p {
@@ -398,7 +430,7 @@ html {
 
 .para a:hover {
     text-decoration: underline;
-    background: #000;
+    background: #48D1CC;
     color: #fff
 }
 
@@ -467,12 +499,13 @@ a:link {
 }
 
 a:hover {
-    color: #fff;
-    background: #000
+    color: #000;
+    background: #fff
 }
 
 .Center {
     position: relative;
+    background-image: url("assets/footer.jpg");
     margin-top: 10vh;
     text-align: center;
     bottom: 3vh;
@@ -480,6 +513,8 @@ a:hover {
     left: 50%;
     width: 400px
 }
+
+
 
 #header {
 /*  background-color: #f1f1f100;*/
@@ -499,7 +534,4 @@ line-height: 1.5;
   transition: 0.2s;
 }
 
-/* Dotted border */
-hr.dotted {
-  border-top: 3px dotted #bbb;
-}
+
